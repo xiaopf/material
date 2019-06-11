@@ -1,0 +1,113 @@
+.content_aboutUs {
+    width: 100%;
+    height: auto;
+}
+
+.page_header_img {
+    width: 100%;
+    height: auto;
+}
+
+.min_nav {
+    width: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 30px;
+}
+
+.min_nav span,
+.min_nav a {
+    color: #333;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.analysis{
+    width:auto;
+    max-width: 1200px;
+    margin:0 auto;
+}
+.analysis h2{
+    color:#0EC5AB;
+    font-size:36px;
+    height:40px;
+    line-height: 40px;
+    padding-bottom:12px;
+    margin:24px 0 12px 0;
+    border-bottom:1px solid #ccc;
+}
+.analysis>p {
+    font-size: 14px;
+    line-height: 20px;
+    color:#333;
+    padding:15px 0;
+}
+/* table */
+.offeredServivesTable{
+    width: 100%;
+    border: 1px solid #000080;
+    margin:30px 0;
+}
+.Lrow th{
+    padding: 20px;
+    color:#000080;
+    border: 1px solid #000080;
+    font-weight:bold;
+    font-size: 16px;
+}
+.Lcell{
+    width:33%;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid #000080;
+    color:#000080;
+    font-size: 16px;
+    vertical-align: middle;
+    padding:10px;
+}
+.Ccell{
+    width:33%;
+    text-align: left;
+    line-height: 20px;
+    border: 1px solid #000080;
+    font-size: 15px;
+    color:#333;
+    vertical-align: middle;
+    padding:10px;
+}
+.Rcell{
+    width:33%;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid #000080;
+    font-size: 15px;
+    color:#333;
+    vertical-align: middle;
+    padding:10px;
+}
+
+.other_analysis_wrap{
+    padding-bottom:30px;
+}
+.other_analysis_wrap p{
+    font-size: 16px;
+    line-height: 20px;
+    padding:10px 0;
+}
+.other_analysis_wrap ul{
+    padding-left:20px;
+}
+.other_analysis_wrap li{
+    font-size: 16px;
+    line-height: 40px;
+    list-style: disc;
+    
+}
+.other_analysis_title a{
+    font-size: 20px;
+    color:#0000ee;
+    text-decoration: none;
+}
