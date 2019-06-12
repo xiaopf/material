@@ -1,0 +1,96 @@
+.content_research_development {
+    width: 100%;
+    height: auto;
+}
+
+.page_header_img {
+    width: 100%;
+    height: auto;
+}
+
+.min_nav {
+    width: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 30px;
+}
+
+.min_nav span,
+.min_nav a {
+    color: #333;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.research_development {
+    width:auto;
+    max-width: 1200px;
+    margin:0 auto;
+    padding-bottom:40px;
+}
+.research_development h2 {
+    color:#0EC5AB;
+    font-size:36px;
+    height:40px;
+    line-height: 40px;
+    padding-bottom:12px;
+    margin:24px 0 12px 0;
+    border-bottom:1px solid #ccc;
+}
+.research_development p {
+    font-size: 14px;
+    line-height: 20px;
+    color:#333;
+    padding:15px 0;
+}
+
+
+.research_part_01 .research_01 {
+    float: right;
+    width:30%;
+    height:auto;
+    padding:10px;
+}
+.research_part_01 .research_02 {
+    float: left;
+    width: 25%;
+    height: auto;
+    padding: 10px;
+}
+.research_part_01 .research_03 {
+    float: right;
+    width: 25%;
+    height: auto;
+    padding: 10px;
+}
+
+.research_development .list_p {
+    padding-left: 20px;
+    padding:5px 0;
+}
+
+.research_development .list_p:before {
+    content: '12';
+    color: transparent;
+    background: url(../images/arrow-left.png) no-repeat center center;
+}
+
+
+.bold_italic {
+    font-style: italic;
+    font-weight: bold;
+    color:#000;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+
+.development{
+    padding:20px 0;
+}
+.development a{
+    font-size: 16px;
+    text-decoration: none;
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src = "../entry/aboutUs.js"></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6X7j8end2uHUTXKdHO2J4kaAJu8IK1Wg&callback=initMap" type="text/javascript"></script>
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            var uluru = {
+                lat: 52.204321,
+                lng: 0.114935
+            };
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {
+                    zoom: 10,
+                    center: uluru
+                });
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+</head>
+<body>
+    <div class="navBar">
+        <a class="logo_wrap" href="">
+            <img src="../images/logo.png" alt="">
+        </a>
+        <ul class="nav_wrap">
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT US</a></li>
+            <li>
+                <span><a class="lon_nav" href="">SIGNATURE MATERIALS</a></span>
+                <ul class="sub_nav_wrap">
+                    <li><a href="">PRODUCTS</a></li>
+                    <li><a href="">UV TO IR OPTICS</a></li>
+                    <li><a href="">HIGH PURITY HAFNIUM</a></li>
+                    <li><a href="">CHALCOGENIDE GLASS</a></li>
+                    <li><a href="">PEROVSKITES</a></li>
+                    <li><a href="">HALIDE SALTS</a></li>
+                    <li><a href="">BATTERY CHEMICALS</a></li>
+                    <li><a href="">SEMICONDUCTORS</a></li>
+                    <li><a href="">PHOTOVOLTAICS</a></li>
+                    <li><a href="">TRANSPARENT CONDUCTORS</a></li>
+                    <li><a href="">PRECIOUS METALS</a></li>
+                    <li><a href="">PRECIOUS METALS</a></li>
+                    <li><a href="">THERMAL SPRAY POWDERS</a></li>
+                    <li><a href="">STARTER SOURCES</a></li>
+                    <li><a href="">SEARCH LISTING</a></li>
+                    <li><a href="">SAFETY DATA SHEETS</a></li>
+                </ul>
+            </li>
+            <li><a class="lon_nav" href="">ANALYTICAL SERVICES</a></li>
+            <li>
+                <span><a href="">MANUFACTURING</a></span>
+                <ul class="sub_nav_wrap">
+                    <li><a href="">MANUFACTURING</a></li>
+                    <li><a href="">SAMPLE GEOMETRY</a></li>
+                    <li><a href="">PRODUCTION PROCESSES</a></li>
+                    <li><a href="">BACKING PLATES</a></li>
+                    <li><a href="">BONDING SERVICE</a></li>
+                    <li><a href="">SPUTTERING SYSTEMS (LVS)</a></li>
+                </ul>
+            </li>
+            <li><a class="lon_nav" href="">RESEARCH & DEVELOPMENT</a></li>
+            <li>
+                <span><a href="">CONTACT</a></span>
+                 <ul class="sub_nav_wrap">
+                     <li><a href="">CONTACT/REQUESTS</a></li>
+                     <li><a href="">DOCUMENTS</a></li>
+                     <li><a href="">UPDATES</a></li>
+                     <li><a href="">CAREERS</a></li>
+                 </ul>
+            </li>
+            <li><a href="">CAREERS</a></li>
+        </ul>
+    </div>
+
+
+    <div class="content_aboutUs">
+        <img class="page_header_img" src="../images/contact.jpg" alt="">
+        <div class="min_nav">
+            <a href="">HOME</a>
+            <span>>></span>
+            <a href="">ABOUT US</a>
+            <span>>></span>         
+            <a href="">HISTORY</a>
+        </div>
+
+        
+
+
+
+
+        <div class="page_tab">
+            <ul class="page_tab_nav">
+                <li class='active'>CONTACT</li>
+                <li>Documents</li>
+                <li>Updates</li>
+            </ul>
+            <ul class="page_tab_content">
+                <li class="active">
+                    <h2>CONTACT US</h2>
+                    <div id="map"></div>
+                    <div class="address_wrap">
+                        <p>
+                            Corporate Office
+                        </p>
+                        <p>
+                            37 Ramland Road
+                        </p>
+                        <p>
+                            Orangeburg, NY 10962
+                        </p>
+                        <p>
+                            (855) 587 2436, +1 (845) 293 0587
+                        </p>
+                        <p>
+                            (845) 589 5975
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <h2>DOCUMENTS</h2>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <h2>UPDATES</h2>
+                    <p>
+                        LTS Research Labs is comprised of four groups of personnel and produces its chemicals in three different facilities
+                        worldwide.
+                        <br><br>
+                        Our research scientists, engineers, and chemists are dedicated to the production of high purity compounds. They are
+                        continuously developing new materials with input from our customers and ensure that current materials - general
+                        chemicals, electronics and optics materials, and military chemicals - are produced to the highest standards.
+                        <br><br>
+                        Our team of shipping and compliance staff ensure our customers are satisfied. They handle shipments across the globe,
+                        interface with the customer, and conduct quality control measurements of the products.
+                        <br><br>
+                        We also have chemists and engineers engaged in an environmental analysis laboratory with wet chemistry and analytical
+                        materials characterization services such as GDMS, ICP, XRD.
+                        <br><br>
+                        Finally, the sputtering group consists of mechanical, electrical, thin film, and production engineers who design and
+                        build custom deposition systems, closely interpreting and following customer's specifications.
+                    </p>
+                </li>
+                <li>
+                    <h2>VISION</h2>
+                    <p>
+                        LTS aspires to become the leading source for high-purity precision materials of the present and future technologies that
+                        power our world.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+
+
+    <div class="footer">
+        <ul class="footer_container">
+            <li>
+                <h2>GO TO</h2>
+                <p><a href="">HOME</a></p>
+                <p><a href="">SITEMAP</a></p>
+            </li>
+            <li>
+                <h2>Technical Capabilities</h2>
+                <p><a href="">HIGHLIGHTED MATERIALS</a></p>
+                <p><a href="">ANALYSIS</a></p>
+                <p><a href="">RESEARCH</a></p>
+                <p><a href="">MANUFACTURING</a></p>
+            </li>
+            <li>
+                <h2>COMPANY</h2>
+                <p><a href="">About Us</a></p>
+                <p><a href="">CONTACT</a></p>
+            </li>
+        </ul>
+        <p>© LTS Research Laboratories, Inc., All Rights Reserved.</p>
+    </div>
+</body>
+</html>
