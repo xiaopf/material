@@ -75,6 +75,7 @@
     font-size: 15px;
     line-height: 22px;
     color:#333;
+    padding:10px;
 }
 
 .page_tab_content li p span{
@@ -84,75 +85,112 @@
 }
 
 
-
-.address_wrap{
-    width:35%;
-    padding-left:5%;
-    display:inline-block;
-    vertical-align: top;
-}
-.address_wrap h4{
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: bold;
-    color:#000;
-}
-.page_tab_content .address_wrap p {
-    font-size: 16px;
-    line-height: 24px;
-}
-#map {
-    height: 400px;
-    width: 60%;
-    display:inline-block;
-    vertical-align: top;
+.page_tab_content li .list_p {
+    padding:5px 20px;
 }
 
-.document_item{
-    width:100%;
-    height:auto;
-    padding:20px 0;
-    border-bottom:1px solid #ccc;
+.page_tab_content li .list_p:before {
+    content: '12';
+    color: transparent;
+    background: url(../images/arrow-left.png) no-repeat center center;
 }
-.document_item a{
+
+
+/* product */
+.product_img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.product_item{
+    font-size: 0;
+    border-top:1px solid #ccc;
+    padding: 10px 0;
+}
+.product_item img{
+    display: inline-block;
+    vertical-align: middle;
+    width:25%;
+    margin:2%;
+}
+.product_item a{
+    display: inline-block;
+    vertical-align: middle;
+    width:70%;
     text-decoration: none;
-    font-size: 14px;
-    height:24px;
-    line-height: 24px;
-}
-.pdf_file::before{
-    content: "1";
-    color: transparent;
-    width:18px;
-    height: 24px;
-    background: url(../images/pdf.png) no-repeat center center;
-    background-size: 100% 100%;
-    display: inline-block;
-    margin-right: 10px;
-}
-.xls_file::before {
-    content: "1";
-    width:18px;
-    height: 24px;
-    color: transparent;
-    background: url(../images/xls.png) no-repeat center center;
-    background-size: 100% 100%;
-    display: inline-block;
-    margin-right: 10px;
 }
 
-.update_item{
-    padding:30px 0;
+.product_item a span:first-child{
+    font-size:16px;
+    font-weight: bold;
+    color:#333;
+    line-height: 22px;
+    padding:0 0 15px 0;
+    display: block;
+}
+.product_item a span:last-child{
+    font-size:14px;
+    color:#333;
+    line-height: 20px;
+    display: block;
+}
+
+
+
+/* fluorides */
+.fluorides_item{
+    padding-top:20px;
+}
+.fluorides_item h3{
+    font-size: 28px;
+    color: #0EC5AB;
+    line-height: 38px;
+    padding:15px 0;
+    border-top:1px solid #ccc;
+}
+.fluorides_item .right{
+    float:right;
+    width:35%;
+    margin:2%;
+}
+.fluorides_item  .center_p {
+    width:100%;
+    text-align: center;
+    color:#000;
+    font-style: italic;
+    font-size: 16px;
+    padding:15px;
+}
+.more_data{
+    font-size: 16px;
+    text-decoration: none;
+    padding:10px 0;
+}
+
+/* hafnium */
+
+.hafnium_item{
+    padding: 15px 0;
     border-bottom: 1px solid #ccc;
 }
-.update_item h3{
-    font-size: 16px;
-    font-weight: bold;
-    padding:15px 0;
-}
-.update_item p{
-    line-height: 20px;
+
+.page_tab_content li .hafnium_item p {
     padding: 10px 0;
-    font-size: 14px;
-    color: #333
+}
+.hafnium_item h3 {
+    font-size: 28px;
+    color: #0EC5AB;
+    line-height: 38px;
+    padding: 15px 0;
+   
+}
+.hafnium_item .right {
+    float: right;
+    width: 35%;
+    margin: 2%;
+}
+
+/* glasses */
+.glasses_item{
+    
 }
