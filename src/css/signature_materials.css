@@ -75,7 +75,7 @@
     font-size: 15px;
     line-height: 22px;
     color:#333;
-    padding:10px;
+    padding:10px 0;
 }
 
 .page_tab_content li p span{
@@ -164,7 +164,8 @@
 .more_data{
     font-size: 16px;
     text-decoration: none;
-    padding:10px 0;
+    padding:20px 0;
+    display: block;
 }
 
 /* hafnium */
@@ -193,4 +194,73 @@
 /* glasses */
 .glasses_item{
     
+}
+
+.divding_title{
+    font-size: 28px;
+    color: #0EC5AB;
+    padding:30px 0 25px 0;
+    margin-top:15px;
+    border-top:1px solid #ccc;
+}
+
+.pic_wrap{
+    text-align: center;
+    widows: 100%;
+    margin: 15px 0;
+}
+.pic_wrap img{
+    width:40%;
+}
+.pic_wrap p {
+    font-size:12px;
+    text-align: center;
+    padding:5px 0;
+}
+.perovskites_item h4,
+.halides_item h4{
+    font-size:16px;
+    color:#333;
+    margin:15px 0;
+    font-weight: bold;
+}
+
+
+
+
+.middle_img{
+    width:60%;
+    display: block;
+    margin:10px auto;
+}
+
+/*  */
+.right {
+    float: right;
+    width: 35%;
+    margin: 2%;
+}
+.rect_list_wrap ul {
+    width: 100%;
+    height: auto;
+}
+
+.rect_list_wrap ul li {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    padding-left: 40px;
+    line-height: 30px;
+}
+
+.rect_list_wrap ul li::before {
+    content: "·";
+    display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 6px;
+    margin-right: 6px;
+    background: #ccc;
+    color: transparent;
 }
